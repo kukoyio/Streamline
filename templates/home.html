@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreamLine</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
 </head>
 <body>
     <header>
-        <h1><a href="home.html">STREAMLINE</a></h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="artist-spotlight.html">Artist Spotlight</a></li>
-                <li><a href="genre-explorer.html">Genre Explorer</a></li>
-                <li><a href="about.html">About Me</a></li>
-            </ul>
-        </nav>
+        <h1><a href="/">STREAMLINE</a></h1>
     </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/spotlight">Artist Spotlight</a></li>
+        </ul>
+    </nav>
     <div class="body">
-        <div class="body_conatiner">
+        <div class="body_container">
             <div class="body_content">
                 <h1>Discover. Listen. Curate</h1>
                 <h2>Welcome to StreamLine</h2>
